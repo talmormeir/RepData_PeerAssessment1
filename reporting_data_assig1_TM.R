@@ -90,8 +90,3 @@ xyplot(mean ~ interval | daytype, mean_data,
        layout=c(1,2))
 
 
-#####submit the work  ###########
-
-install.packages("devtools")
-devtools::install_github("username/packagename")
-library(devtools)
